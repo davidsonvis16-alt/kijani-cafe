@@ -1,0 +1,6 @@
+{
+  "name": "Kijani Kafe",
+  "description": "Premium Garden Café, Bar & Restaurant in Milimani, Nakuru, Kenya",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
