@@ -102,7 +102,7 @@ export const Hero: React.FC = () => {
             {/* Main Stage Image Frame */}
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-[#173F2A]">
               <img
-                src="https://images.unsplash.com/photo-1643856557143-09189e523fd6?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2FyZGVuJTIwcmVzdGF1cmFudHxlbnwwfHwwfHwwfA%3D%3D"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3GaGvG06wYoqzY90-81UzooLtjUXJS22nNWoR0ZpkHw&s=10"
                 alt="Kijani Flame-Grilled Feast Platter with Fries & Dips"
                 className="w-full h-[380px] sm:h-[480px] lg:h-[540px] object-cover object-center transform hover:scale-105 transition-transform duration-700"
               />
@@ -130,7 +130,7 @@ export const Hero: React.FC = () => {
             {/* Small Overlapping Secondary Accent Photo */}
             <div className="hidden sm:block absolute -bottom-6 -left-6 w-36 h-36 lg:w-44 lg:h-44 rounded-2xl overflow-hidden shadow-xl border-4 border-white bg-white">
               <img
-                src="https://images.unsplash.com/photo-1777370537280-94e8796c243a?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGdhcmRlbiUyMGNhZmV8ZW58MHx8MHx8fDA%3D"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEIR6IXpNsDwIErMujul5PYf_c8fYWdzp2IbOeORnFuQ&s=10"
                 alt="Passion Fruit Virgin Mojito at Kijani Kafe"
                 className="w-full h-full object-cover"
               />
