@@ -9,7 +9,7 @@ export const FinalCTA: React.FC = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
           <img
-            src="/images/ambiance/ambiance-7.jpg"
+            src="https://images.unsplash.com/photo-1769184617504-be7e08f3a8b3?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2FyZGVuJTIwcmVzdGF1cmFudHxlbnwwfHwwfHwwfA%3D%3D"
             alt="Kijani Kafe Garden atmosphere in Milimani, Nakuru"
             className="w-full h-full object-cover opacity-25"
           />

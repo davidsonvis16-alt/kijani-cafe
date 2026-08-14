@@ -97,14 +97,14 @@ export const LifestyleSection: React.FC<LifestyleSectionProps> = ({ onOpenReserv
             <div className="grid grid-cols-2 gap-4">
               <div className="rounded-3xl overflow-hidden shadow-lg border-2 border-white aspect-[3/4] bg-[#173F2A]">
                 <img
-                  src="/images/ambiance/ambiance-5.jpg"
+                  src="https://images.unsplash.com/photo-1777115213932-49886708ce19?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG91dGRvb3IlMjBnYW1lfGVufDB8fDB8fHww"
                   alt="Board & Lawn Games at Kijani Kafe"
                   className="w-full h-full object-cover img-zoom-hover"
                 />
               </div>
               <div className="rounded-3xl overflow-hidden shadow-lg border-2 border-white aspect-[3/4] bg-[#173F2A] mt-8">
                 <img
-                  src="/images/ambiance/ambiance-6.jpg"
+                  src="https://images.unsplash.com/photo-1727926219091-0577bc9d3df6?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Kids and Family Outdoors in Milimani, Nakuru"
                   className="w-full h-full object-cover img-zoom-hover"
                 />

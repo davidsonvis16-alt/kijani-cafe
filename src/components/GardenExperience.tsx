@@ -50,7 +50,7 @@ export const GardenExperience: React.FC = () => {
           className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-[#173F2A] mb-12"
         >
           <img
-            src="/images/ambiance/ambiance-4.jpg"
+            src="https://images.unsplash.com/photo-1777370537280-94e8796c243a?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGdhcmRlbiUyMGNhZmV8ZW58MHx8MHx8fDA%3D"
             alt="Kijani Kafe Outdoor Garden Tables & Shaded Lawn Dining"
             className="w-full h-[450px] sm:h-[550px] lg:h-[620px] object-cover object-center"
           />

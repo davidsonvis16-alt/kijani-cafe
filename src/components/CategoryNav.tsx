@@ -58,7 +58,7 @@ export const CategoryNav: React.FC<CategoryNavProps> = ({
             type="text"
             value={searchQuery}
             onChange={(e) => onSearchChange(e.target.value)}
-            placeholder="Search menu items (e.g. Masala Chips, Chicken, Mojito)..."
+            placeholder="Search menu items (e.g. Burger, Wings, Coffee)..."
             className="w-full bg-white border border-[#173F2A]/20 rounded-full py-3 pl-12 pr-4 text-sm focus:outline-none focus:border-[#2F6B3F] focus:ring-2 focus:ring-[#2F6B3F]/20 shadow-sm transition-all"
           />
           <Utensils className="w-4 h-4 text-[#2F6B3F] absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none" />

@@ -13,7 +13,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     id: 'g2',
     title: 'Flame-Grilled Signature Platter',
     category: 'FOOD',
-    src: '/images/menu/menu-item-9.jpg',
+    src: 'https://images.unsplash.com/photo-1776134969047-8420f7657346?auto=format&fit=crop&q=80&w=800',
     caption: 'Flame-grilled chicken, steak skewers, and golden fries ready for sharing.',
     aspectRatio: 'wide'
   },
@@ -45,7 +45,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     id: 'g6',
     title: 'Famous Masala Chips & Dips',
     category: 'FOOD',
-    src: '/images/menu/menu-item-4.jpg',
+    src: 'https://images.unsplash.com/photo-1541796512681-800c76e2657e?auto=format&fit=crop&q=80&w=800',
     caption: 'Hot, spicy, coriander-kissed masala chips freshly cooked.',
     aspectRatio: 'square'
   },

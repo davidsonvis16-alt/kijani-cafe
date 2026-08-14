@@ -95,6 +95,17 @@ export const Footer: React.FC = () => {
           <p className="flex items-center gap-1">
             Crafted with <Heart className="w-3.5 h-3.5 text-[#B84A32] fill-current" /> for Milimani, Nakuru.
           </p>
+          <p>
+            Website by{' '}
+            <a
+              href="https://portfolio-e-mu.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors"
+            >
+              Eden
+            </a>
+          </p>
         </div>
       </div>
     </footer>

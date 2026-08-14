@@ -102,7 +102,7 @@ export const Hero: React.FC = () => {
             {/* Main Stage Image Frame */}
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-[#173F2A]">
               <img
-                src="/images/ambiance/ambiance-1.jpg"
+                src="https://images.unsplash.com/photo-1643856557143-09189e523fd6?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2FyZGVuJTIwcmVzdGF1cmFudHxlbnwwfHwwfHwwfA%3D%3D"
                 alt="Kijani Flame-Grilled Feast Platter with Fries & Dips"
                 className="w-full h-[380px] sm:h-[480px] lg:h-[540px] object-cover object-center transform hover:scale-105 transition-transform duration-700"
               />
@@ -123,14 +123,14 @@ export const Hero: React.FC = () => {
               {/* Floating Bottom Left Label in Editorial Badge Style */}
               <div className="absolute bottom-6 left-6 bg-white p-4 shadow-xl border border-[#2F6B3F]/10">
                 <span className="text-[10px] font-black uppercase tracking-widest text-[#B84A32] block">Signature Dish</span>
-                <h3 className="text-base font-bold text-[#173F2A] font-serif">Flame-Grilled Chicken & Masala Fries</h3>
+                <h3 className="text-base font-bold text-[#173F2A] font-serif">Spicy Wings & Chips</h3>
               </div>
             </div>
 
             {/* Small Overlapping Secondary Accent Photo */}
             <div className="hidden sm:block absolute -bottom-6 -left-6 w-36 h-36 lg:w-44 lg:h-44 rounded-2xl overflow-hidden shadow-xl border-4 border-white bg-white">
               <img
-                src="/images/ambiance/ambiance-2.jpg"
+                src="https://images.unsplash.com/photo-1777370537280-94e8796c243a?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGdhcmRlbiUyMGNhZmV8ZW58MHx8MHx8fDA%3D"
                 alt="Passion Fruit Virgin Mojito at Kijani Kafe"
                 className="w-full h-full object-cover"
               />
