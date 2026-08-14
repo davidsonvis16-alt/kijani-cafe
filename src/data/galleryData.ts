@@ -5,7 +5,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     id: 'g1',
     title: 'Serene Garden Dining Area',
     category: 'GARDEN',
-    src: '/images/ambiance/ambiance-1.jpg',
+    src: '/interior-night-ambient-lighting.jpeg',
     caption: 'Sunlit outdoor dining surrounded by mature trees in Milimani, Nakuru.',
     aspectRatio: 'tall'
   },
@@ -13,7 +13,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     id: 'g2',
     title: 'Flame-Grilled Signature Platter',
     category: 'FOOD',
-    src: 'https://images.unsplash.com/photo-1776134969047-8420f7657346?auto=format&fit=crop&q=80&w=800',
+    src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi1yT5vuN1sa9takjRoOgXbdKtAOdYvUgp3C6kIUP93Q&s=10',
     caption: 'Flame-grilled chicken, steak skewers, and golden fries ready for sharing.',
     aspectRatio: 'wide'
   },
@@ -21,7 +21,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     id: 'g3',
     title: 'Tropical Garden Craft Mocktails',
     category: 'DRINKS',
-    src: '/images/drinks/drink-1.jpg',
+    src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk-TK2Dk1EytjQGi5Ecj115tVyW_x5_MQhDnLy2pCB7A&s=10',
     caption: 'Handcrafted passionfruit & mint virgin mojitos under the canopy.',
     aspectRatio: 'square'
   },
@@ -35,17 +35,17 @@ export const GALLERY_IMAGES: GalleryImage[] = [
   },
   {
     id: 'g5',
-    title: 'Shaded Veranda & Lounge',
+    title: 'Covered Patio & Lounge',
     category: 'VIBES',
-    src: '/images/ambiance/ambiance-3.jpg',
-    caption: 'Cozy seating designed for slow afternoons, conversation, and coffee.',
+    src: '/covered-patio-wooden-tables.jpeg',
+    caption: 'Relaxed covered seating with wooden tables, perfect for intimate moments and cool escapes.',
     aspectRatio: 'wide'
   },
   {
     id: 'g6',
     title: 'Famous Masala Chips & Dips',
     category: 'FOOD',
-    src: 'https://images.unsplash.com/photo-1541796512681-800c76e2657e?auto=format&fit=crop&q=80&w=800',
+    src: '/potato-wedges-table-setting.jpeg',
     caption: 'Hot, spicy, coriander-kissed masala chips freshly cooked.',
     aspectRatio: 'square'
   },
@@ -53,7 +53,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     id: 'g7',
     title: 'Family & Board Game Afternoons',
     category: 'VIBES',
-    src: '/images/ambiance/ambiance-4.jpg',
+    src: '/images/ambiance/ambiance-3.jpg',
     caption: 'Lawn games, Jenga, and family laughter under Nakuru skies.',
     aspectRatio: 'tall'
   },
@@ -61,7 +61,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     id: 'g8',
     title: 'Barista Handcrafted Espresso',
     category: 'DRINKS',
-    src: '/images/menu/menu-item-5.jpg',
+    src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg0dGvrf9YR8mX80kNUV3vfNVsGXBp1mtwo9UHXA8OLQ&s=10',
     caption: 'Locally sourced Kenyan arabica micro-batches poured daily.',
     aspectRatio: 'square'
   }

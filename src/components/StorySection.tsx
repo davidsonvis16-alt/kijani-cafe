@@ -22,8 +22,8 @@ export const StorySection: React.FC<StorySectionProps> = ({ onOpenReservation })
           >
             <div className="relative rounded-3xl overflow-hidden shadow-xl border-4 border-white bg-[#173F2A]">
               <img
-                 src="https://images.unsplash.com/photo-1643856557143-09189e523fd6?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2FyZGVuJTIwcmVzdGF1cmFudHxlbnwwfHwwfHwwfA%3D%3D"
-                alt="Kijani Kafe Leafy Garden Dining in Milimani, Nakuru"
+                 src="/interior-night-ambient-lighting.jpeg"
+                alt="Kijani Kafe Lush Garden Sanctuary in Milimani, Nakuru"
                 className="w-full h-[400px] sm:h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#173F2A]/60 via-transparent to-transparent pointer-events-none" />

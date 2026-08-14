@@ -189,7 +189,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Battered tilapia, chunky chips, veg, tartare.',
     price: 900,
     category: 'MAIN_MEALS',
-    image: 'https://images.unsplash.com/photo-1579208030886-b937da0925dc?auto=format&fit=crop&q=80&w=800',
+    image: '/whole-fried-fish-chips-veggies.jpeg',
     tag: 'BEST SELLER',
     prepTime: '25 min'
   },
