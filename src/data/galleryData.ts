@@ -73,7 +73,7 @@ export const EXPERIENCE_ITEMS: ExperienceItem[] = [
     title: 'GARDEN DINING',
     subtitle: 'AL FRESCO FREEDOM',
     description: 'Dine under towering trees with soft garden breezes and natural sunlight.',
-    image: '/images/ambiance/ambiance-5.jpg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9gSsZ2aXb7Yy9FHzTgCoGm4C1rTJdbncsdXVpcdA_QA&s=10',
     tag: 'OUTDOOR'
   },
   {
@@ -81,7 +81,7 @@ export const EXPERIENCE_ITEMS: ExperienceItem[] = [
     title: 'ARTISANAL CAFÉ',
     subtitle: 'SLOW COFFEE MOMENTS',
     description: 'Espressos, iced macchiatos, Swahili chai, and fresh morning pastries.',
-    image: '/images/ambiance/ambiance-6.jpg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg0dGvrf9YR8mX80kNUV3vfNVsGXBp1mtwo9UHXA8OLQ&s=10',
     tag: 'CAFÉ'
   },
   {
@@ -89,7 +89,7 @@ export const EXPERIENCE_ITEMS: ExperienceItem[] = [
     title: 'THE GARDEN BAR',
     subtitle: 'CRAFT DRINKS & COCKTAILS',
     description: 'Refreshing virgin mojitos, cold local beers, and signature sunset cocktails.',
-    image: '/images/drinks/drink-2.jpg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST7pROpOM-Z9exBzwai9vWIr2_eRutnf7BYO0bGpDW4Q&s=10',
     tag: 'BAR'
   },
   {
@@ -97,7 +97,7 @@ export const EXPERIENCE_ITEMS: ExperienceItem[] = [
     title: 'FAMILY & KIDS',
     subtitle: 'SAFE PLAY & SPACE',
     description: 'Dedicated grassy play zones, kids menu items, and family seating.',
-    image: '/images/ambiance/ambiance-7.jpg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJhtaBIu0j_HDdTvem0fZ5pogba3PdcCs3OOoWwxR3g&s=10',
     tag: 'FAMILY'
   },
   {
@@ -105,7 +105,7 @@ export const EXPERIENCE_ITEMS: ExperienceItem[] = [
     title: 'LAWN & BOARD GAMES',
     subtitle: 'PLAY & UNWIND',
     description: 'Giant Jenga, Scrabble, chess, and relaxed lawn games with friends.',
-    image: '/images/ambiance/ambiance-8.jpg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA2hI_3fb7asNiT6HIYfoE2CMqEAbdaG_E1hM-J07CRg&s',
     tag: 'GAMES'
   },
   {
@@ -113,7 +113,7 @@ export const EXPERIENCE_ITEMS: ExperienceItem[] = [
     title: 'EVENTS & ACOUSTICS',
     subtitle: 'LIVE GARDEN SESSIONS',
     description: 'Acoustic music sessions, private celebrations, and Sunday gatherings.',
-    image: '/images/menu/menu-item-10.jpg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhVdtOZhNyu_KVji7ZY8XqRivu5PaqTKxt5q8_sLELrA&s=10',
     tag: 'EVENTS'
   }
 ];

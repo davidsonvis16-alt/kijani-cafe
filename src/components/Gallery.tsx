@@ -4,6 +4,7 @@ import { GalleryImage } from '../types';
 import { Lightbox } from './Lightbox';
 import { Sparkles, Maximize2, Camera } from 'lucide-react';
 import { motion } from 'motion/react';
+import { ImageStreamHero } from './ui/image-stream-hero';
 
 export const Gallery: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState<string>('ALL');
@@ -16,27 +17,34 @@ export const Gallery: React.FC = () => {
     return GALLERY_IMAGES.filter((img) => img.category === activeCategory);
   }, [activeCategory]);
 
+  const streamImages = GALLERY_IMAGES.map((img) => ({ src: img.src, alt: img.title }));
+
   return (
     <section id="gallery" className="py-20 bg-[#F5F0E6] relative scroll-mt-10 border-b border-[#173F2A]/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
-        
-        {/* Section Header */}
-        <div className="text-center max-w-2xl mx-auto mb-10">
-          <div className="flex items-center justify-center gap-3 mb-3">
-            <div className="w-10 h-[1px] bg-[#B84A32]" />
-            <span className="text-[11px] font-bold tracking-[0.3em] uppercase text-[#B84A32]">
-              The Kijani Journal
-            </span>
+        <ImageStreamHero
+          images={streamImages}
+          cards={8}
+          speed={16}
+          className="h-[420px] sm:h-[480px] rounded-3xl border-4 border-white bg-[#173F2A] shadow-2xl mb-10"
+        >
+          <div className="relative z-10 flex h-full flex-col items-center justify-center text-center px-6">
+            <div className="flex items-center justify-center gap-3 mb-3">
+              <div className="w-10 h-[1px] bg-[#B84A32]" />
+              <span className="text-[11px] font-bold tracking-[0.3em] uppercase text-[#B84A32]">
+                The Kijani Journal
+              </span>
+            </div>
+            <h2 className="font-serif font-black text-4xl sm:text-5xl lg:text-6xl text-[#F5F0E6] tracking-tight mb-4">
+              GALLERY OF <span className="italic font-serif font-normal text-[#A9B99B]">MOMENTS.</span>
+            </h2>
+            <p className="text-base text-white/90 font-light max-w-2xl mx-auto">
+              Food, drink, green leaves, and laughter captured in Milimani, Nakuru.
+            </p>
           </div>
-          <h2 className="font-serif font-black text-4xl sm:text-5xl lg:text-6xl text-[#173F2A] tracking-tight mb-4">
-            GALLERY OF <span className="italic font-serif font-normal text-[#2F6B3F]">MOMENTS.</span>
-          </h2>
-          <p className="text-base text-[#173F2A]/80 font-light">
-            Food, drink, green leaves, and laughter captured in Milimani, Nakuru.
-          </p>
-        </div>
+        </ImageStreamHero>
 
-        {/* Filter Category Tabs */}
+      {/* Filter Category Tabs */}
         <div className="flex items-center justify-center gap-4 sm:gap-6 flex-wrap mb-10 border-b border-[#2F6B3F]/15 pb-3">
           {categories.map((cat) => (
             <button
