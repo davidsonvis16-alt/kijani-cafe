@@ -154,7 +154,7 @@ export const FeaturedFood: React.FC = () => {
               >
               <div className="overflow-hidden aspect-square mb-2.5 bg-black/20 relative">
                   <img
-                      src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFuZ28lMjBzbW9vdGhpZXxlbnwwfHwwfHx8MA%3D%3D"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeYgxHUf3M5uiDQTxnpM7LrEi01BX_Z1V0WpJVU3KbVQ&s=1024"
                      alt="Mango & Pineapple Smoothie"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />

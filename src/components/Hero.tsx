@@ -6,6 +6,17 @@ import { Link } from 'react-router-dom';
 export const Hero: React.FC = () => {
   return (
     <section id="home" className="relative bg-[#F5F0E6] overflow-hidden pt-6 pb-16 lg:py-20 border-b border-[#173F2A]/10">
+      {/* Glass-like Blurred Hero Background */}
+      <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3GaGvG06wYoqzY90-81UzooLtjUXJS22nNWoR0ZpkHw&s=10"
+          alt=""
+          aria-hidden="true"
+          className="h-full w-full object-cover scale-110 blur-xl opacity-100"
+        />
+        <div className="absolute inset-0 bg-[#F5F0E6]/60" />
+      </div>
+
       {/* Decorative Subtle Leaf Pattern Background Effect */}
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none bg-[radial-gradient(#173F2A_1px,transparent_1px)] [background-size:24px_24px]" />
 
