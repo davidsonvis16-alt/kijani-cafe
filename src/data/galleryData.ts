@@ -11,17 +11,17 @@ export const GALLERY_IMAGES: GalleryImage[] = [
   },
   {
     id: 'g2',
-    title: 'Flame-Grilled Signature Platter',
+    title: 'Sirloin Steak & Mash',
     category: 'FOOD',
-    src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi1yT5vuN1sa9takjRoOgXbdKtAOdYvUgp3C6kIUP93Q&s=10',
-    caption: 'Flame-grilled chicken, steak skewers, and golden fries ready for sharing.',
+    src: '/steak-mashed-potato-plate.jpeg',
+    caption: 'Prime Kenyan sirloin, cooked how you like it, with lumpy mash.',
     aspectRatio: 'wide'
   },
   {
     id: 'g3',
     title: 'Tropical Garden Craft Mocktails',
     category: 'DRINKS',
-    src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk-TK2Dk1EytjQGi5Ecj115tVyW_x5_MQhDnLy2pCB7A&s=10',
+    src: '/images/food/mojito.jpg',
     caption: 'Handcrafted passionfruit & mint virgin mojitos under the canopy.',
     aspectRatio: 'square'
   },
@@ -61,7 +61,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     id: 'g8',
     title: 'Barista Handcrafted Espresso',
     category: 'DRINKS',
-    src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg0dGvrf9YR8mX80kNUV3vfNVsGXBp1mtwo9UHXA8OLQ&s=10',
+    src: '/images/food/coffee.jpg',
     caption: 'Locally sourced Kenyan arabica micro-batches poured daily.',
     aspectRatio: 'square'
   }
@@ -73,7 +73,7 @@ export const EXPERIENCE_ITEMS: ExperienceItem[] = [
     title: 'GARDEN DINING',
     subtitle: 'AL FRESCO FREEDOM',
     description: 'Dine under towering trees with soft garden breezes and natural sunlight.',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9gSsZ2aXb7Yy9FHzTgCoGm4C1rTJdbncsdXVpcdA_QA&s=10',
+    image: '/exterior-lawn-outdoor-seating.jpeg',
     tag: 'OUTDOOR'
   },
   {
@@ -81,7 +81,7 @@ export const EXPERIENCE_ITEMS: ExperienceItem[] = [
     title: 'ARTISANAL CAFÉ',
     subtitle: 'SLOW COFFEE MOMENTS',
     description: 'Espressos, iced macchiatos, Swahili chai, and fresh morning pastries.',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg0dGvrf9YR8mX80kNUV3vfNVsGXBp1mtwo9UHXA8OLQ&s=10',
+    image: '/images/food/coffee.jpg',
     tag: 'CAFÉ'
   },
   {
@@ -89,7 +89,7 @@ export const EXPERIENCE_ITEMS: ExperienceItem[] = [
     title: 'THE GARDEN BAR',
     subtitle: 'CRAFT DRINKS & COCKTAILS',
     description: 'Refreshing virgin mojitos, cold local beers, and signature sunset cocktails.',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST7pROpOM-Z9exBzwai9vWIr2_eRutnf7BYO0bGpDW4Q&s=10',
+    image: '/images/food/sangria.jpg',
     tag: 'BAR'
   },
   {
@@ -97,7 +97,7 @@ export const EXPERIENCE_ITEMS: ExperienceItem[] = [
     title: 'FAMILY & KIDS',
     subtitle: 'SAFE PLAY & SPACE',
     description: 'Dedicated grassy play zones, kids menu items, and family seating.',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJhtaBIu0j_HDdTvem0fZ5pogba3PdcCs3OOoWwxR3g&s=10',
+    image: '/images/ambiance/ambiance-3.jpg',
     tag: 'FAMILY'
   },
   {
@@ -105,7 +105,7 @@ export const EXPERIENCE_ITEMS: ExperienceItem[] = [
     title: 'LAWN & BOARD GAMES',
     subtitle: 'PLAY & UNWIND',
     description: 'Giant Jenga, Scrabble, chess, and relaxed lawn games with friends.',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA2hI_3fb7asNiT6HIYfoE2CMqEAbdaG_E1hM-J07CRg&s',
+    image: '/garden-flowers-lawn.jpeg',
     tag: 'GAMES'
   },
   {
@@ -113,7 +113,7 @@ export const EXPERIENCE_ITEMS: ExperienceItem[] = [
     title: 'EVENTS & ACOUSTICS',
     subtitle: 'LIVE GARDEN SESSIONS',
     description: 'Acoustic music sessions, private celebrations, and Sunday gatherings.',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhVdtOZhNyu_KVji7ZY8XqRivu5PaqTKxt5q8_sLELrA&s=10',
+    image: '/images/ambiance/ambiance-6.jpg',
     tag: 'EVENTS'
   }
 ];

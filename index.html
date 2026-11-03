@@ -12,8 +12,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Syne:wght@600;700;800&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#0e2a1c" />
+    <meta property="og:image" content="/burger-and-fries.jpeg" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Kijani Kafe",
+      "description": "Garden café, bar & restaurant in Milimani, Nakuru.",
+      "telephone": "+254700279982",
+      "servesCuisine": ["Kenyan", "Grill", "Burgers", "Café"],
+      "priceRange": "KSh 100 – KSh 1,300",
+      "acceptsReservations": true,
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Menengai Drive, Milimani",
+        "addressLocality": "Nakuru",
+        "addressCountry": "KE"
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Thursday", "Friday", "Saturday"],
+        "opens": "12:00",
+        "closes": "23:00"
+      }]
+    }
+    </script>
   </head>
-  <body class="bg-[#F5F0E6] text-[#20221F] font-sans antialiased selection:bg-[#2F6B3F] selection:text-white">
+  <body class="bg-cream text-ink font-sans antialiased">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

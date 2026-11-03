@@ -1,20 +1,29 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Kijani Kafe — Bar & Restaurant, Milimani, Nakuru
 
-# Run and deploy your AI Studio app
+React 19 + Vite + Tailwind v4 site with online ordering.
 
-This contains everything you need to run your app locally.
+## Run
 
-View your app in AI Studio: https://ai.studio/apps/8cee0b93-3069-4bc1-a83e-5f5c7c083187
+```
+npm install
+npm run dev      # http://localhost:3000
+npm run build
+```
 
-## Run Locally
+## Features
 
-**Prerequisites:**  Node.js
+- Full food + bar menu (`src/data/menuData.ts`) with real prices and options (sides, flavours, tot/bottle, extras)
+- Item customisation, 18+ check for alcohol, persistent bag, upsells
+- Checkout: pickup / dine-in / delivery, ASAP or scheduled, M-Pesa / card / pay-at-counter, promo codes, tips, points
+- Accounts, Kijani Rewards points and tiers, favourites, saved addresses, order history, reorder
+- Order tracking page and a WhatsApp ticket to the kitchen
+- Live open/closed status and Happy Hour (East Africa Time), Restaurant schema for Google
 
+## Before going live
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Front-end only. Everything is stored in the visitor's browser.
+
+- **Payments are simulated** (`ORDERING.demoPayments` in `src/data/site.ts`). Wire up Safaricom Daraja (STK push) and a card processor on a server.
+- **Accounts** are local to the browser. Replace `AuthContext` with a real backend (Supabase, Firebase, etc.).
+- **Order status** advances on a timer. Feed it from a kitchen system.
+- Confirm everything marked `CONFIRM` in `src/data/site.ts`: hours, delivery fee and minimum, promo codes, rewards.
